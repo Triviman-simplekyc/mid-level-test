@@ -39,6 +39,7 @@ Fork this repository and make the necessary changes in your repository. As a fin
 ## Scenario
 
 ### Minimum Scenario:
+automate the configuration of those servers with code, the execution of the code must provide correct +**configuration**+ from scratch.
 
 You have two Linux machines running **Ubuntu 20.04** or **22.04**:
 
@@ -61,6 +62,6 @@ You have two Linux machines running **Ubuntu 20.04** or **22.04**:
 
 ### Maximum Scenario:
 
-- Provide **Infrastructure as Code (IaC)** to provision both machines.
+- Provide Infrastructure as Code (IaC) to +**provision**+ both machines.
 - The platform is your choice (**VMware**, **VirtualBox**, **Proxmox**, **Azure**, **AWS**, **GCP**, etc.).
 - Implement the same scenario with **high availability** for the PHP application.
